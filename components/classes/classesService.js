@@ -13,6 +13,7 @@ service.createClass = (data) => {
     
         Class.create(data).then((result) => {
             resolve(result);
+            console.log(result);
         }).catch((err) => {
             console.log("error create class");
         });
