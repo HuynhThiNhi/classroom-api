@@ -9,7 +9,10 @@ const db = new sequelize({
     host: "ec2-44-199-158-170.compute-1.amazonaws.com",
     port: 5432,
     dialect: "postgres",
-    ssl: {rejectUnauthorized: false}
+    
+    ssl: {rejectUnauthorized: false},
+    dialectOptions: { ssl: true }
+
 	
 })
 
