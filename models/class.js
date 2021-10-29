@@ -10,9 +10,9 @@ const Class = db.define("ClassRoom", {
   owner: sequelize.STRING
 });
 
-db.sync()
-.then(()=>{
-    console.log("Create class successfully...")
-})
+// db.sync()
+// .then(()=>{
+//     console.log("Create class successfully...")
+// })
 
 module.exports = Class

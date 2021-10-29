@@ -8,6 +8,7 @@ router.get("/", (req, res, next) => {
   service
     .findAll()
     .then((result) => {
+      console.log("nooooooooooooo");
       res.json(result);
     })
     .catch((err) => {
