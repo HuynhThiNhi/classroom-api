@@ -2,9 +2,10 @@
   "name": "classroom-api",
   "version": "0.0.0",
   "private": true,
+  "main": "app.js",
   "scripts": {
-    "start": "node app",
-    "start:dev": "nodemon ./bin/www"
+    "start": "node app"
+   
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
